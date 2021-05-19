@@ -81,6 +81,7 @@ default = [
     "length",
     "log",
     "match",
+    "match_any",
     "md5",
     "merge",
     "now",
@@ -177,6 +178,7 @@ join = []
 length = []
 log = ["tracing"]
 match = ["regex"]
+match_any = ["regex"]
 md5 = ["md-5", "hex"]
 merge = []
 now = ["chrono"]
